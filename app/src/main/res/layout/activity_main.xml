@@ -12,4 +12,29 @@
         android:contentDescription="@string/app_name"
         android:scaleType="centerCrop"
         app:srcCompat="@drawable/fish" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="8dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/aldrich"
+        android:text="Oh, fish, my fish"
+        android:textColor="@android:color/black"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:fontFamily="@font/aldrich"
+        android:rotation="-40"
+        android:layout_marginBottom="70dp"
+        android:text="My pretty fish"
+        android:textColor="@android:color/white"
+        android:textSize="30sp" />
 </RelativeLayout>
